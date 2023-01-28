@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- Tailwind Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+            fontFamily: {
+              heading: ["Kanit", "sans-serif"],
+              paragraph: ["Lato", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <!-- fontAwsome -->
+    <script src="https://kit.fontawesome.com/b2ff2620a3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Haeder section -->
+    <header class=" bg-gradient-to-t from-violet-500 to-fuchsia-500 h-screen">
+      <!-- Nav Section -->
+        <nav class="flex justify-between items-center max-w-5xl w-full mx-auto text-header py-4 text-white">
+            <h1 class="text-4xl font-bold"><span class="text-orange-400">Tuhin</span> Kanti Pal</h1>
+
+            <ul class="flex items-center gap-4 text-xl font-semibold">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+                <button type="button" class="bg-orange-400 px-4 py-2 rounded-sm items-center font-semibold 
+                ml-2">Message <i class="fa-regular fa-message mr-1"></i></button>
+            </ul>
+        </nav>
+        <!-- Header Contents -->
+        <div class="flex justify-center items-center h-[80%] text-white">   
+            <div class="text-center">
+                <h1 class="text-5xl font-bold mb-3"><span class="text-orange-400">Tuhin</span> Kanti Pal</h1>
+                <h3 class="text-2xl font-semibold mb-3">Junior Web 
+                  <span class="text-orange-400">Developer</span></h3>
+                <p class="text-lg text-slate-300 text-paragraph">I am a junior Web Devloper about last one year. I am Graduate from Daffodil Institute Of IT. I complete My Devlopment From Programming Hero.</p>
+                <button type="button" class="bg-red-400 px-5 py-3 rounded-lg font-bold text-lg mt-8">Hire Me <i class="fa-regular fa-thumbs-up ml-2"></i></button>
+
+                <div class="mt-10"><span><i class="fa-solid fa-down-long text-7xl text-orange-300"></i></span></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl w-full mx-auto ">
+        <!-- About Section -->
+        <section class="mt-16 mb-16">
+            <h1 class="text-header text-4xl font-bold text-center">About</h1>
+            <hr class="w-24 mx-auto mt-3 bg-orange-500 h-[3px]">
+
+            <div class="mt-20 flex justify-center items-center">
+                <div class="flex-1 text-center">
+                    <h1 class="text-5xl font-bold mb-3"><span class="text-orange-400">Tuhin</span> Kanti Pal</h1>
+                    <h3 class="text-2xl font-semibold mb-3">Junior Web <span class="text-orange-400">Developer</span></h3>
+                    <p class="text-lg text-slate-500 text-paragraph">I am a junior Web Devloper about last one year. I am Graduate from Daffodil Institute Of IT. I complete My Devlopment From Programming Hero.</p>
+                    <button type="button" class="bg-red-400 px-5 py-3 rounded-lg font-bold text-lg mt-8 text-white">Hire Me <i class="fa-regular fa-thumbs-up ml-2"></i></button>
+                </div>
+                <div class="flex-1 w-full">
+                    <img class=" mx-auto" src="images/about.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Experiance Section -->
+
+        <section>
+          <h1 class="text-header text-4xl font-bold text-center">Experiance</h1>
+          <hr class="w-32 mx-auto mt-3 bg-orange-500 h-[3px]">
+
+          <div class="mt-20">
+            <div>
+              <span></span>
+            </div>
+          </div>
+        </section>
+    </main>
+
+
+    
+  </body>
+</html>
